@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         //b comment
-        //a comment
 
     }
 }
