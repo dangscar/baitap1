@@ -22,9 +22,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ViewSwitcher simpleViewSwitcher;
-    Button btnNext, btnPrev;
-    int [] arr = {R.drawable.ic_launcher_foreground, R.drawable.baseline_article_24, R.drawable.baseline_account_balance_24};
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -32,25 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnNext = (Button) findViewById(R.id.buttonNext);
-        btnPrev = (Button) findViewById(R.id.buttonPrevious);
 
-        // get the reference of ViewSwitcher
-        simpleViewSwitcher = (ViewSwitcher) findViewById(R.id.simpleViewSwitcher);
-
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                simpleViewSwitcher.showNext();
-            }
-        });
-
-        btnPrev.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                simpleViewSwitcher.showPrevious();
-            }
-        });
 
 
     }
