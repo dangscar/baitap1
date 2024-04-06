@@ -2,4 +2,9 @@
     <string name="app_name">XayDungAppTest</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <color name="colorPrimary">#0F9D58</color>
+    <color name="colorPrimaryDark">#16E37F</color>
+    <color name="colorAccent">#03DAC5</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>
